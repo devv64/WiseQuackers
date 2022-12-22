@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Edwin A. Stevens Hall</title>
+    <link href="desktop.css" rel="stylesheet" type="text/css" media="screen and (min-width:769px)" />  
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="screen and (min-width:481px) and (max-width:1081px)"/>
+    <link href="mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width:480px)" /> 
+  </head>
+
+  </div>
+  <body>
+    <div class="globalPageHeader">
+      <h1>Wise Quackers</h1>
+    </div>
+    <div class="dropdown" id="subpage">
+      <button class="dropdownMenu">Buildings Pages</button>
+      <!--- These will all be in a dropdown menu once CSS is implemented--->
+      <div class="dropdownItems">
+        <a href="index.html">Home</a>
+        <a href="buildings.html">Buildings Homepage</a>
+        <a href="abs.html">ABS Engineering Center</a>
+        <a href="babbio.html">Babbio Center</a>
+        <a href="burchard.html">Burchard Building</a>
+        <a href="carnegie.html">Carnegie Lab</a>
+        <a href="davidson.html">Davidson Lab</a>
+        <a href="EAS.html">Edwin A. Stevens Hall</a>
+        <a href="Gate.html">Gateway North and South</a>
+        <a href="library.html">Samuel C. Williams Library</a>
+        <a href="mclean.html">McLean Hall</a>
+        <a href="MPK.html">Morton Pierce Kidde Complex</a>
+        <a href="nicoll.html">Nicoll Environmnetal Lab</a>
+        <a href="north.html">North Building</a>
+      </div>
+    </div>
+    <div class="wideNavbar">
+      <nav>
+        <a class="homeButton" href="index.html">Home</a>
+        <a class="wideNavbarButton" href="buildings.html">Buildings Homepage</a>
+        <a class="wideNavbarButton" href="abs.html">ABS Engineering Center</a>
+        <a class="wideNavbarButton" href="babbio.html">Babbio Center</a>
+        <a class="wideNavbarButton" href="burchard.html">Burchard Building</a>
+        <a class="wideNavbarButton" href="carnegie.html">Carnegie Lab</a>
+        <a class="wideNavbarButton" href="davidson.html">Davidson Lab</a>
+        <a class="wideNavbarButtonActive" href="EAS.html">Edwin A. Stevens Hall</a>
+        <a class="wideNavbarButton" href="Gate.html">Gateway North and South</a>
+        <a class="wideNavbarButton" href="library.html">Samuel C. Williams Library</a>
+        <a class="wideNavbarButton" href="mclean.html">McLean Hall</a>
+        <a class="wideNavbarButton" href="MPK.html">Morton Pierce Kidde Complex</a>
+        <a class="wideNavbarButton" href="nicoll.html">Nicoll Environmnetal Lab</a>
+        <a class="wideNavbarButton" href="north.html">North Building</a>
+      </nav>
+    </div>
+    <div class="main" id="hasMap">
+    <h2>Edwin A. Stevens Hall</h2>
+    <div class="slideshow">
+      <div class="slidecontainer">
+        <div class="slide fade">
+          <img class="slidepic" src="images/EAS1.jpg" style="width: 100%">
+        </div>
+        <div class="slide fade">
+          <img class="slidepic" src="images/EAS2.jpg" style="width: 100%">
+        </div>
+        <div class="slide fade">
+          <img class="slidepic" src="images/EAS3.jpg" style="width: 100%">
+        </div>
+
+        <a class="previ" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="nextt" onclick="changeSlide(1)">&#10095;</a>
+
+      </div>
+      <br>
+      <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <div class="content">
+      <p>Named after the founder of the university, Edwin A. Stevens Hall houses multiple faculty offices as well as classrooms. It also houses the DeBaun auditorium which holds many of the university’s performances and some events.</p>
+      <h3>Navigation: </h3>
+      <p>
+        Edwin A Stevens is Located on the Corner of 4th and Hudson Street. It is a recognizable building because of how different it looks from the modern buildings on campus. The walk through campus for this building can take a while, but if you walk in the direction of Babbio, and make a right to see the stevens emblem on 5th street, you turn left and walk until you see a grey brick building. From the Jonas side of campus, it is preferable to walk through the back pathway because it will help cut down on the amount of time you spend walking. 
+
+      </p>
+    </div>
+          <div id="nextprev">
+      <a href="davidson.html" id="prev" class="previous">&laquo Previous</a>
+      <a href="Gate.html" id="next" class="next">Next &raquo</a>
+    </div>
+    <div class="mapImg">
+        <img src="images/stevensCampus.png" alt="Stevens Institute of Tecnology campus map" width="660" height="870" usemap="#building_map">
+        <map name="building_map">
+          <area href="EAS.html" alt="Edward A. Stevens Hall" shape="poly" coords="44,718, 67,722, 66,730, 80,734, 71,776, 15,761, 25,727, 40,730">
+          <area href="mclean.html" alt="McLean Hall" shape="poly" coords="110,748, 132,752, 112,812, 97,807">
+          <area href="babbio.html" alt="Babbio Center" shape="poly" coords="134,683, 165,691, 163,703, 172,708, 167,728, 157,727, 152,749, 120,741">
+          <area href="burchard.html" alt="Burchard Building" shape="poly" coords="70,668, 99,674, 88,725, 58,718">
+          <area href="carnegie.html" alt="Carnegie Lab" shape="poly" coords="31,684, 47,688, 39,725, 23,721">
+          <area href="Gate.html" alt="Gateway North and South" shape="poly" coords="47,624, 76,629, 57,713, 44,710, 49,686, 33,682">
+          <area href="MPK.html" alt="Morton Kidde Pierce Complex" shape="poly" coords="139,593, 181,603, 176,622, 153,617, 145,651, 168,655, 164,673, 123,665">
+          <area href="abs.html" alt="ABS Engineering Center" shape="poly" coords="61,550, 90,556, 87,570, 96,572, 93,584, 55,575">
+          <area href="nicoll.html" alt="Nicoll Environmental Lab" shape="poly" coords="79,520, 96,525, 90,555, 72,551">
+          <area href="davidson.html" alt="Davidson Lab" shape="poly" coords="85,441, 96,444, 90,551, 72,549">
+          <area href="north.html" alt="North Building" shape="poly" coords="245,300, 271,307, 264,333, 239,328">
+          <area href="library.html" alt="Samuel C. Williams Library" shape="poly" coords="242,442, 278,451, 265,509, 229,500">
+        </map>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js>"</script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Stevens Volleyball</title>
+    <link href="desktop.css" rel="stylesheet" type="text/css" media="screen and (min-width:769px)" />  
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="screen and (min-width:481px) and (max-width:1081px)"/>
+    <link href="mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width:480px)" /> 
+  </head>
+  
+
+  <body>
+    <div class="globalPageHeader">
+      <h1>WiseQuackers</h1>
+    </div>
+    <div class="dropdown" id="subpage">
+      <button class="dropdownMenu">Sports Pages</button>
+      <div class="dropdownItems">
+        <a href="index.html">Home</a>
+        <a href="sports.html">Sports Homepage</a>
+        <a href="base.html">Baseball</a>
+        <a href="basket.html">Basketball</a>
+        <a href="xc.html">Cross Country</a>
+        <a href="fencing.html">Fencing</a>
+        <a href="fh.html">Field Hockey</a>
+        <a href="golf.html">Golf</a>
+        <a href="lax.html">Lacrosse</a>
+        <a href="soccer.html">Soccer</a>
+        <a href="soft.html">Softball</a>
+        <a href="swim.html">Swimming</a>
+        <a href="tennis.html">Tennis</a>
+        <a href="voll.html">Volleyball</a>
+        <a href="wr.html">Wrestling</a>
+      </div>
+    </div>
+    <div class="wideNavbar">
+      <nav>
+        <a class="homeButton" href="index.html">Home</a>
+        <a class="wideNavbarButton" href="sports.html">Sports Homepage</a>
+        <a class="wideNavbarButton" href="base.html">Baseball</a>
+        <a class="wideNavbarButton" href="basket.html">Basketball</a>
+        <a class="wideNavbarButton" href="xc.html">Cross Country</a>
+        <a class="wideNavbarButton" href="fencing.html">Fencing</a>
+        <a class="wideNavbarButton" href="fh.html">Field Hockey</a>
+        <a class="wideNavbarButton" href="golf.html">Golf</a>
+        <a class="wideNavbarButton" href="lax.html">Lacrosse</a>
+        <a class="wideNavbarButton" href="soccer.html">Soccer</a>
+        <a class="wideNavbarButton" href="soft.html">Softball</a>
+        <a class="wideNavbarButton" href="swim.html">Swimming</a>
+        <a class="wideNavbarButton" href="tennis.html">Tennis</a>
+        <a class="wideNavbarButtonActive" href="voll.html">Volleyball</a>
+        <a class="wideNavbarButton" href="wr.html">Wrestling</a>
+      </nav>
+    </div>
+    <div class="main" id="sports">
+      <h2>Volleyball</h2>
+      <h4>Men's coaching staff headed by Dan Buehring.</h4>
+      <h4>Women's coaching staff headed by Brianna Jones.</h4>
+   <div class="slideshow">
+      <div class="slidecontainer">
+        <div class="slide fade">
+          <img class="slidepic" src="images/volley1.jpg" style="width: 100%">
+        </div>
+        <div class="slide fade">
+          <img class="slidepic" src="images/volley2_.jpg" style="width: 100%">
+        </div>
+        <div class="slide fade">
+          <img class="slidepic" src="images/volley3.png" style="width: 100%">
+        </div>
+
+        <a class="previ" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="nextt" onclick="changeSlide(1)">&#10095;</a>
+
+      </div>
+      <br>
+      <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <img src = "https://stevensducks.com/images/2021/7/23/W_Volleyball_Sidearm.jpg?width=1416&height=797&mode=crop&quality=80&format=jpg" style="width: 100%">
+      <img src ="https://stevensducks.com/images/2021/10/13/M_Volleyball.jpg?width=1416&height=797&mode=crop&quality=80&format=jpg" style="width: 100%">
+      <a href="https://www.instagram.com/StevensMensvolleyball/">Men's' Volleyball Instagram</a><br>
+    <a href="https://www.instagram.com/stevenswomens_volleyball/">Women's Volleyball Instagram</a>
+    </div>
+    </div>
+    <div id="nextprev">
+      <a href="tennis.html" id="prev" class="previous">&laquo Previous</a>
+      <a href="wr.html" id="next" class="next">Next &raquo</a>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js>"</script>
+  </body>
+</html>
